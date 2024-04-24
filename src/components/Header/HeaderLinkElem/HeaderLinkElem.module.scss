@@ -1,0 +1,10 @@
+.link {
+  color: rgb(0, 0, 0);
+  margin-left: 0.5rem;
+  transition: 0.5s all;
+  &:hover {
+    color: var(--prime-green);
+    text-shadow: 2px 1px 0px #000000;
+    font-weight: bold;
+  }
+}

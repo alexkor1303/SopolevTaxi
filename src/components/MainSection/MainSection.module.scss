@@ -1,0 +1,49 @@
+.prime {
+  color: var(--prime-green);
+  text-shadow: 2px 1px 0px #000000;
+  font-weight: bold;
+}
+//all about wrapper style.
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr minmax(200px, 1fr);
+  align-items: center;
+  padding: 40px 50px;
+  justify-content: space-between;
+  background-image: url("/mainBackground.png");
+  background-size: contain;
+  background-position: calc(50% - 80px) center;
+  background-repeat: no-repeat;
+  ul {
+    list-style: none;
+  }
+}
+.infoBlock {
+  //left side main section
+  .textBlock {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .mainButton {
+    margin-top: 20px;
+  }
+  //right side main section
+  .imageBlock {
+    justify-self: center;
+  }
+}
+//Phones
+@media (max-width: 450px) {
+  .wrapper {
+    display: block;
+    padding: 0;
+    background-position: center;
+    padding-bottom: 40px;
+  }
+  .mobileTitle {
+    font-size: 25px;
+  }
+  .imageBlock {
+    display: none;
+  }
+}
