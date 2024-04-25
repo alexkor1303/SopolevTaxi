@@ -14,23 +14,27 @@
   background-size: contain;
   background-position: calc(50% - 80px) center;
   background-repeat: no-repeat;
-  ul {
-    list-style: none;
-  }
 }
+//left side main section
 .infoBlock {
-  //left side main section
   .textBlock {
     margin-top: 10px;
     font-size: 15px;
+    align-content: center;
+  }
+  .icon {
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
   }
   .mainButton {
     margin-top: 20px;
   }
-  //right side main section
-  .imageBlock {
-    justify-self: center;
-  }
+}
+//right side main section
+.imageBlock {
+  display: flex;
+  justify-content: center;
 }
 //Phones
 @media (max-width: 450px) {

@@ -1,0 +1,28 @@
+@keyframes carousel {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(2%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.dividerBlock {
+  align-content: center;
+  height: 50px;
+  color: rgb(93, 93, 93);
+  cursor: default;
+  animation: carousel 3s linear infinite;
+  ul {
+    display: flex;
+    justify-content: space-around;
+    li {
+      text-align: center;
+      margin-right: 10px;
+    }
+  }
+}
+@media (max-width: 450px) {
+}

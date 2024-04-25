@@ -1,0 +1,15 @@
+.wrapper {
+  margin: 20px 0px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.titleBlock {
+  padding: 10px 20px;
+  height: 40px;
+  background-color: var(--prime-green);
+  color: black;
+}
+.descriptionBlock {
+  font-weight: 200;
+}

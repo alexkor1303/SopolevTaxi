@@ -1,6 +1,7 @@
 "use client";
 import style from "./MainSection.module.scss";
 import Image from "next/image";
+import { BiLabel } from "react-icons/bi";
 import { Button } from "..";
 export const MainSection = () => {
   const buttonClick = () => {
@@ -12,23 +13,21 @@ export const MainSection = () => {
         <h2 className={style.infoTitle}>
           Пассажирские Перевозки
           <br />
-          по направлению :
-          <br />
           <span className={style.mobileTitle}>
             Хандыга - <span className={style.prime}>Якутск</span> - Хандыга.
           </span>
         </h2>
         <section className={style.textBlock}>
           <p>
-            <b>Предоставляем скидки :</b> <br />
-            Пенсионерам, многодетным семьям, детям, студентам, инвалидам.
+            <BiLabel className={style.icon} fill="black" />
+            Скидки пенсионерам, многодетным семьям, детям, студентам, инвалидам
           </p>
           <p>
-            <b>А так же :</b>
+            <BiLabel className={style.icon} />
+            Заключение договоров с юридическими лицами
             <br />
-            Заключаем договорова с юридическими лицами.
-            <br />
-            Принимаем наличный и безналичный расчет
+            <BiLabel className={style.icon} />
+            Наличный и безналичный расчет
           </p>
         </section>
         <Button
@@ -38,7 +37,7 @@ export const MainSection = () => {
         />
       </div>
       <div className={style.imageBlock}>
-        <Image src="/mainCar.png" alt="car image" width={400} height={280} />
+        <Image src="/mainCar.png" alt="car image" width={450} height={300} />
       </div>
     </div>
   );
