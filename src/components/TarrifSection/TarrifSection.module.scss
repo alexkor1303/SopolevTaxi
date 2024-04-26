@@ -8,8 +8,8 @@
   grid-template-areas:
     "block1 block2"
     "block3 block4"
-    "block5 image"
-    "block6 block7";
+    "block5 block6"
+    "block7 block8";
 }
 .block {
   width: 100%;
@@ -25,7 +25,6 @@
 .block3 {
   grid-area: block3;
 }
-
 .block4 {
   grid-area: block4;
 }

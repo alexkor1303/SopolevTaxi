@@ -1,27 +1,37 @@
 .block {
+  align-items: center;
   padding: 20px 20px;
   height: 200px;
   width: 100%;
   box-shadow: 0px 5px 1px 1px rgba(18, 16, 16, 0.2);
-  li {
-    font-size: 15px;
+  font-size: 25px;
+  h2 {
+    font-size: 22px;
+  }
+  .road {
+    display: flex;
+    flex-direction: column;
+    .roadHeading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .place {
+      display: inline-block;
+      max-width: max-content;
+      padding: 5px 10px;
+    }
+    .price {
+      font-weight: bold;
+    }
+    .sales {
+      font-size: small;
+      align-self: flex-start;
+      font-weight: bold;
+    }
   }
 }
-.road {
-  display: flex;
-  flex-direction: column;
-}
-.price {
-  justify-self: center;
-  font-weight: bold;
-  font-size: 30px;
-}
-
-.sales {
-  align-self: flex-start;
-  font-weight: bold;
-}
-
 .white {
   background-color: white;
   border-radius: 25px;
@@ -43,22 +53,20 @@
 
 @media (max-width: 450px) {
   .block {
-    flex-wrap: nowrap;
-    gap: 10px;
-  }
-  .headSection {
-    flex-wrap: wrap;
-    // gap: 10px;
+    font-size: 20px;
     h2 {
-      font-size: 25px;
+      font-size: 15px;
     }
-  }
-  .bigHeadSection {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 1fr 1fr;
-    h2 {
-      font-size: 20px;
+    .road {
+      .roadHeading {
+      }
+      .place {
+      }
+      .price {
+        margin-left: 20px;
+      }
+      .sales {
+      }
     }
   }
 }

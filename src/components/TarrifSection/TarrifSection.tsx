@@ -7,8 +7,6 @@ export const TarrifSection = () => {
   return (
     <div className={style.wrapper}>
       {TarrifList.map((elem) => {
-        const blockClassName = elem.id;
-        console.log(blockClassName);
         return (
           <div
             key={elem.id}
@@ -19,7 +17,6 @@ export const TarrifSection = () => {
           </div>
         );
       })}
-      <section className={style.image}></section>
     </div>
   );
 };
