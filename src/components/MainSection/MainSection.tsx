@@ -30,11 +30,9 @@ export const MainSection = () => {
             Наличный и безналичный расчет
           </p>
         </section>
-        <Button
-          className={style.mainButton}
-          text="Подробнее"
-          onClick={buttonClick}
-        />
+        <Button className={style.mainButton} onClick={buttonClick}>
+          Подробнее
+        </Button>
       </div>
       <div className={style.imageBlock}>
         <Image src="/mainCar.png" alt="car image" width={450} height={300} />

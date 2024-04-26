@@ -4,6 +4,7 @@ import {
   Divider,
   AttentionTag,
   TarrifSection,
+  ContactSection,
 } from "../components/index";
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         нашими обновленными ценами на перевозки.
       </AttentionTag>
       <TarrifSection />
+      <ContactSection />
     </main>
   );
 }

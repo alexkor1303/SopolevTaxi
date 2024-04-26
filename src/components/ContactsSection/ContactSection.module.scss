@@ -1,0 +1,85 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(230, 230, 230);
+  border-radius: 25px;
+  padding: 20px 40px;
+}
+.linkList {
+  margin-top: 30px;
+}
+.qrCode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 25px;
+  color: rgba(0, 0, 0, 0.399);
+  background-color: rgba(38, 38, 38, 0.348);
+  justify-self: center;
+  border: 1px solid var(--prime-green);
+  box-shadow: 0px 5px 1px 1px rgba(18, 16, 16, 0.2);
+}
+.buttonLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 30px;
+  margin: 10px 10px 10px 0px;
+}
+.whatsapp {
+  &:hover {
+    background-color: rgb(71, 205, 75);
+    border: 2px solid white;
+  }
+}
+.telegram {
+  &:hover {
+    background-color: rgb(81, 185, 255);
+    border: 2px solid white;
+  }
+}
+.instagram {
+  &:hover {
+    background-color: rgb(139, 59, 185);
+    border: 2px solid white;
+  }
+}
+.mail {
+  &:hover {
+    background-color: rgb(255, 185, 81);
+    border: 2px solid rgb(255, 255, 255);
+  }
+}
+.mts {
+  &:hover {
+    background-color: rgb(255, 87, 87);
+    border: 2px solid rgb(255, 255, 255);
+  }
+}
+.megaphone {
+  &:hover {
+    background-color: rgb(62, 198, 92);
+    border: 2px solid rgb(255, 255, 255);
+  }
+}
+@media (max-width: 450px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .linkList {
+    margin-top: 10px;
+    h3 {
+      font-size: 25px;
+    }
+  }
+  .buttonLink {
+    margin: 20px 10px 10px 0px;
+  }
+  .qrCode {
+    display: flex;
+    margin-top: 20px;
+  }
+}

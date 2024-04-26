@@ -2,14 +2,14 @@
 import style from "./Button.module.scss";
 import cn from "classnames";
 interface ButtonProps {
-  onClick: () => void;
-  text: string;
-  className: string;
+  onClick?: () => void;
+  className?: string;
+  children?: React.ReactNode;
 }
-export const Button = ({ onClick, text, className }: ButtonProps) => {
+export const Button = ({ onClick, children, className }: ButtonProps) => {
   return (
-    <button className={cn(className, style.button)} onClick={onClick}>
-      {text}
+    <button className={cn(style.button, className)} onClick={onClick}>
+      {children}
     </button>
   );
 };

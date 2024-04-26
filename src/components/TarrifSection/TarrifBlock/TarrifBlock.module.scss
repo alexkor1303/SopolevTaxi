@@ -35,19 +35,19 @@
 .white {
   background-color: white;
   border-radius: 25px;
-  border: 2px solid black;
+  border: 2px solid var(--prime-black);
   .place {
     background-color: var(--prime-green);
   }
 }
 .black {
-  background-color: black;
+  background-color: var(--prime-black);
   color: white;
   border-radius: 25px;
-  border: 2px solid black;
+  border: 2px solid var(--prime-black);
   .place {
     background-color: white;
-    color: black;
+    color: var(--prime-black);
   }
 }
 

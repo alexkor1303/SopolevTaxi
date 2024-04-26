@@ -1,5 +1,6 @@
 :root {
-  --prime-green: rgb(162, 255, 2);
+  --prime-green: #adff2f;
+  --prime-black: rgb(38, 38, 38);
 }
 
 * {
