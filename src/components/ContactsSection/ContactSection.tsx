@@ -9,7 +9,7 @@ import { Button } from "..";
 import Image from "next/image";
 export const ContactSection = () => {
   return (
-    <div className={style.wrapper}>
+    <div className={style.wrapper} id="Contacts">
       <section className={style.linkList}>
         <h3>
           Свяжитесь с нами в любой удобной

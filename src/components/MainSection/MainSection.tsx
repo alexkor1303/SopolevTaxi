@@ -1,14 +1,9 @@
-"use client";
 import style from "./MainSection.module.scss";
 import Image from "next/image";
 import { BiLabel } from "react-icons/bi";
-import { Button } from "..";
 export const MainSection = () => {
-  const buttonClick = () => {
-    console.log("Button clicked!");
-  };
   return (
-    <div className={style.wrapper}>
+    <div className={style.wrapper} id="Main">
       <div className={style.infoBlock}>
         <h2 className={style.infoTitle}>
           Пассажирские Перевозки
@@ -30,9 +25,6 @@ export const MainSection = () => {
             Наличный и безналичный расчет
           </p>
         </section>
-        <Button className={style.mainButton} onClick={buttonClick}>
-          Подробнее
-        </Button>
       </div>
       <div className={style.imageBlock}>
         <Image src="/mainCar.png" alt="car image" width={450} height={300} />

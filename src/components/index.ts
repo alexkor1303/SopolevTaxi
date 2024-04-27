@@ -1,5 +1,6 @@
 export * from "./Header/Header";
 export * from "./MainSection/MainSection";
+export * from "./SliderMenu/SliderMenu";
 export * from "./Button/Button";
 export * from "./Divider/Divider";
 export * from "./AttentionTag/AttentionTag";
@@ -7,4 +8,4 @@ export * from "./TarrifSection/TarrifSection";
 export * from "./ContactsSection/ContactSection";
 export * from "./LicenseSection/LicenseSection";
 export * from "./ModalWindow/ModalWindow";
-export * from "./Footer/Footer"
+export * from "./Footer/Footer";

@@ -1,0 +1,12 @@
+.wrapper {
+  background-color: red;
+}
+.visible {
+  transition: ease-in 0.5s;
+}
+
+.hidden {
+  transition: ease-out 0.5;
+  opacity: 0;
+  display: none;
+}

@@ -1,16 +1,13 @@
 import style from "./Footer.module.scss";
-import { GiHorizonRoad } from "react-icons/gi";
-
+import { BsLightningChargeFill } from "react-icons/bs";
 export const Footer = () => {
   return (
     <div className={style.wrapper}>
-      <section></section>
-      <section></section>
-      <section>
-        <GiHorizonRoad />
-        <p>sopol taxi copyright © 2024</p>
-      </section>
-      <GiHorizonRoad />
+      <p>
+        SOPOL
+        <BsLightningChargeFill fill={`var(--prime-green)`} />
+        TAXI copyright © 2024
+      </p>
     </div>
   );
 };

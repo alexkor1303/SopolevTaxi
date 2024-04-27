@@ -1,22 +1,17 @@
 export const HeaderLinks = [
   {
-    key: 1,
-    link: "#",
-    text: "main",
-  },
-  {
     key: 2,
-    link: "#",
-    text: "advantages",
+    link: "#Tarrifs",
+    text: "Цены",
   },
   {
     key: 3,
-    link: "#",
-    text: "tariffs",
+    link: "#Contacts",
+    text: "Контакты",
   },
   {
     key: 4,
-    link: "#",
-    text: "contacts",
+    link: "#License",
+    text: "Лицензия",
   },
 ];

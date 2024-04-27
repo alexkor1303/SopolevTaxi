@@ -7,7 +7,7 @@ import { AttentionTag, Button, ModalWindow } from "..";
 export const LicenseSection = () => {
   const [open, setOpen] = React.useState(false);
   return (
-    <div className={style.wrapper}>
+    <div className={style.wrapper} id="License">
       <ModalWindow onClose={() => setOpen(!open)} status={open}>
         <Image
           className={style.image}

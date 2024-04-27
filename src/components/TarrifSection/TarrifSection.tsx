@@ -5,7 +5,7 @@ import { TarrifList } from "./TarrifsList";
 import { TarrifBlock } from "./TarrifBlock/TarrifBlock";
 export const TarrifSection = () => {
   return (
-    <>
+    <div id="Tarrifs">
       <AttentionTag title="Внимание!">
         Уважаемые жители и гости Томпонского района! Пожалуйста, ознакомьтесь с
         нашими обновленными ценами на перевозки.
@@ -23,6 +23,6 @@ export const TarrifSection = () => {
           );
         })}
       </div>
-    </>
+    </div>
   );
 };
