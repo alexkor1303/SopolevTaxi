@@ -7,3 +7,4 @@ export * from "./TarrifSection/TarrifSection";
 export * from "./ContactsSection/ContactSection";
 export * from "./LicenseSection/LicenseSection";
 export * from "./ModalWindow/ModalWindow";
+export * from "./Footer/Footer"

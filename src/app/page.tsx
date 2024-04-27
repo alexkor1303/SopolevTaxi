@@ -2,7 +2,6 @@ import style from "./page.module.css";
 import {
   MainSection,
   Divider,
-  AttentionTag,
   TarrifSection,
   ContactSection,
   LicenseSection,
@@ -12,13 +11,9 @@ export default function Home() {
     <main className={style.mainWrapper}>
       <MainSection />
       <Divider />
-      <AttentionTag title="Внимание!">
-        Уважаемые жители и гости Томпонского района! Пожалуйста, ознакомьтесь с
-        нашими обновленными ценами на перевозки.
-      </AttentionTag>
       <TarrifSection />
       <ContactSection />
-	  <LicenseSection/>
+      <LicenseSection />
     </main>
   );
 }

@@ -6,7 +6,6 @@ import style from "./License.module.scss";
 import { AttentionTag, Button, ModalWindow } from "..";
 export const LicenseSection = () => {
   const [open, setOpen] = React.useState(false);
-
   return (
     <div className={style.wrapper}>
       <ModalWindow onClose={() => setOpen(!open)} status={open}>

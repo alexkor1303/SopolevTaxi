@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Header } from "../components/index";
+import { Header, Footer } from "../components/index";
 import "./globals.css";
 ///
 export const metadata: Metadata = {
@@ -22,6 +22,7 @@ export default function RootLayout({
         <div className="landingWrapper">
           <Header />
           {children}
+          <Footer />
         </div>
       </body>
     </html>

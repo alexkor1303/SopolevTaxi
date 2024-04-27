@@ -14,9 +14,6 @@ export const ModalWindow = ({
   children,
   onClose,
 }: ModalWindowProps) => {
-  {
-    console.log(`i take ${status}!`);
-  }
   return (
     <div
       className={cn(style.hidden, {
