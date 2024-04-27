@@ -5,3 +5,5 @@ export * from "./Divider/Divider";
 export * from "./AttentionTag/AttentionTag";
 export * from "./TarrifSection/TarrifSection";
 export * from "./ContactsSection/ContactSection";
+export * from "./LicenseSection/LicenseSection";
+export * from "./ModalWindow/ModalWindow";

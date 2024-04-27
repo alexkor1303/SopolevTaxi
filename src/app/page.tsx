@@ -5,6 +5,7 @@ import {
   AttentionTag,
   TarrifSection,
   ContactSection,
+  LicenseSection,
 } from "../components/index";
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       </AttentionTag>
       <TarrifSection />
       <ContactSection />
+	  <LicenseSection/>
     </main>
   );
 }

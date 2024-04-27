@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.attention {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  span {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .button {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+    padding: 4px 20px;
+    color: var(--prime-black);
+    .eyeIcon {
+      transition: all 0.5s;
+      color: rgb(208, 208, 208);
+    }
+    &:hover {
+      background-color: var(--prime-black);
+      color: white;
+      .eyeIcon {
+        color: white;
+      }
+    }
+  }
+}
+
+.image {
+  border-radius: 25px;
+  filter: saturate(25%);
+}

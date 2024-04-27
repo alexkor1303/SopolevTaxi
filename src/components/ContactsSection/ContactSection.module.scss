@@ -41,8 +41,10 @@
   }
 }
 .instagram {
+  transition: background-color 0.5s, border 0.5s;
   &:hover {
-    background-color: rgb(139, 59, 185);
+    background-color: #833ab4;
+
     border: 2px solid white;
   }
 }
