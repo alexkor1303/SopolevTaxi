@@ -1,16 +1,16 @@
 export const HeaderLinks = [
   {
-    key: 2,
+    id: 2,
     link: "#Tarrifs",
     text: "Цены",
   },
   {
-    key: 3,
+    id: 3,
     link: "#Contacts",
     text: "Контакты",
   },
   {
-    key: 4,
+    id: 4,
     link: "#License",
     text: "Лицензия",
   },

@@ -1,24 +1,35 @@
-import { link } from "fs";
+import { RxCross2 } from "react-icons/rx";
 import { HeaderLinks } from "../Header/HeaderLinks";
+import { Button } from "..";
 import style from "./SliderMenu.module.scss";
 import cn from "classnames";
 interface SliderMenuProps {
   status: boolean;
+  hideSlider: () => void;
 }
-export const SliderMenu = ({ status }: SliderMenuProps) => {
+export const SliderMenu = ({ status, hideSlider }: SliderMenuProps) => {
   return (
     <div
       className={cn(style.wrapper, {
         [style.visible]: status === true,
         [style.hidden]: status === false,
       })}>
-      {HeaderLinks.map((el) => {
-        return (
-          <a key={el.key} href={el.link}>
-            {el.text}
-          </a>
-        );
-      })}
+      <div className={style.slider}>
+        <div className={style.linkList}>
+          {HeaderLinks.map((el) => {
+            return (
+              <Button key={el.id}>
+                <a onClick={hideSlider} href={el.link}>
+                  {el.text}
+                </a>
+              </Button>
+            );
+          })}
+        </div>
+        <Button onClick={hideSlider} className={style.closeButton}>
+          <RxCross2 size={20} />
+        </Button>
+      </div>
     </div>
   );
 };

@@ -21,10 +21,11 @@ export const Header = () => {
       </section>
       <section className={style.linkBlock}>
         <section className={style.desktopLinks}>
-          {HeaderLinks.map((elem) => {
+          {HeaderLinks.map((elem, i) => {
             return (
               <HeaderLinkElem
-                key={elem.key}
+                key={i}
+                id={elem.id}
                 text={elem.text}
                 link={elem.link}
               />
@@ -39,7 +40,7 @@ export const Header = () => {
             onClick={() => setOpen(true)}>
             <IoMdMenu size={20} />
           </Button>
-          <SliderMenu status={open} />
+          <SliderMenu status={open} hideSlider={() => setOpen(!open)} />
         </section>
       </section>
     </div>

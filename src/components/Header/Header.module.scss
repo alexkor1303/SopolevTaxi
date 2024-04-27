@@ -26,6 +26,7 @@
       display: none;
     }
     .mobileLinks {
+      z-index: 2;
       display: block;
       .burgerButton {
         display: flex;
