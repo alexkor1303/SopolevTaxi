@@ -12,3 +12,15 @@
     gap: 10px;
   }
 }
+@media (max-width: 450px) {
+  .wrapper {
+    flex-direction: column-reverse;
+  }
+  .phones {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    margin-top: 10px;
+  }
+}

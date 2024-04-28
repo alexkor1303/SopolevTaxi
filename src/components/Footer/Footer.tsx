@@ -5,7 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 export const Footer = () => {
   return (
     <div className={style.wrapper}>
-      <section>
+      <section className={style.phones}>
         Телефон для быстрой связи :
         <ul>
           <li>
