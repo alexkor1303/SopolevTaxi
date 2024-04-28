@@ -6,7 +6,7 @@ import { Button, SliderMenu } from "..";
 import { HeaderLinks } from "./HeaderLinks";
 import { HeaderLinkElem } from "./HeaderLinkElem/HeaderLinkElem";
 import { BsLightningChargeFill } from "react-icons/bs";
-import { IoMdMenu } from "react-icons/io";
+import { CiMenuKebab } from "react-icons/ci";
 
 export const Header = () => {
   const [open, setOpen] = React.useState(false);
@@ -38,7 +38,7 @@ export const Header = () => {
               [style.hiddenButton]: open === true,
             })}
             onClick={() => setOpen(true)}>
-            <IoMdMenu size={20} />
+            <CiMenuKebab size={20} />
           </Button>
           <SliderMenu status={open} hideSlider={() => setOpen(!open)} />
         </section>

@@ -12,8 +12,8 @@ export const LicenseSection = () => {
         <Image
           className={style.image}
           src={"/license.png"}
-          width={380}
-          height={600}
+          width={340}
+          height={560}
           alt="license"
         />
       </ModalWindow>

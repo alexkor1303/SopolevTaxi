@@ -1,8 +1,14 @@
 .wrapper {
-  padding: 20px 10px;
+  padding: 20px 20px;
   color: white;
   border-radius: 20px;
   background-color: var(--prime-black);
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
 }

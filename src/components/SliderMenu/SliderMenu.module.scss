@@ -18,9 +18,16 @@
     height: 70px;
     padding: 0px 10px 0 10px;
     background-color: white;
+    box-shadow: 0px 5px 5px 10px rgba(18, 16, 16, 0.2);
     .linkList {
       display: flex;
       gap: 10px;
+    }
+    .linkButton {
+      color: black;
+      font-weight: bold;
+      background-color: white;
+      border: 2px solid var(--prime-green);
     }
     .closeButton {
       display: flex;

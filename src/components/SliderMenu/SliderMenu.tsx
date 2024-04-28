@@ -1,4 +1,5 @@
 import { RxCross2 } from "react-icons/rx";
+import { CiMenuKebab } from "react-icons/ci";
 import { HeaderLinks } from "../Header/HeaderLinks";
 import { Button } from "..";
 import style from "./SliderMenu.module.scss";
@@ -18,7 +19,7 @@ export const SliderMenu = ({ status, hideSlider }: SliderMenuProps) => {
         <div className={style.linkList}>
           {HeaderLinks.map((el) => {
             return (
-              <Button key={el.id}>
+              <Button key={el.id} className={style.linkButton}>
                 <a onClick={hideSlider} href={el.link}>
                   {el.text}
                 </a>
