@@ -26,9 +26,7 @@ export const MainSection = () => {
           </p>
         </section>
       </div>
-      <div className={style.imageBlock}>
-        <Image src="/mainCar.png" alt="car image" width={450} height={300} />
-      </div>
+      <div className={style.imageBlock}></div>
     </div>
   );
 };

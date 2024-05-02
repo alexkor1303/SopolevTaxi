@@ -1,5 +1,5 @@
 :root {
-  --prime-green: #adff2f;
+  --prime-green: #39dc1d;
   --prime-black: rgb(38, 38, 38);
 }
 
@@ -28,7 +28,7 @@ a {
   border-radius: 20px;
   padding: 0 40px 20px 40px;
 }
-@media (max-width: 450px) {
+@media (max-width: 650px) {
   .landingWrapper {
     margin: 0;
     border-radius: 0;
