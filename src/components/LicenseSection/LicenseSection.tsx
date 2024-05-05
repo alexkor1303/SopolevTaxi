@@ -1,9 +1,10 @@
-"use client";
+"use client"
 import React from "react";
 import Image from "next/image";
 import { FaEye } from "react-icons/fa";
 import style from "./License.module.scss";
 import { AttentionTag, Button, ModalWindow } from "..";
+
 export const LicenseSection = () => {
   const [open, setOpen] = React.useState(false);
   return (

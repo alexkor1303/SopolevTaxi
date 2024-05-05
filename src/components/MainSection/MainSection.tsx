@@ -1,6 +1,7 @@
 import style from "./MainSection.module.scss";
 import Image from "next/image";
 import { BiLabel } from "react-icons/bi";
+
 export const MainSection = () => {
   return (
     <div className={style.wrapper} id="Main">

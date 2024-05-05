@@ -7,6 +7,7 @@ import { GoMail } from "react-icons/go";
 import { BsTelephonePlus } from "react-icons/bs";
 import { Button } from "..";
 import Image from "next/image";
+
 export const ContactSection = () => {
   return (
     <div className={style.wrapper} id="Contacts">

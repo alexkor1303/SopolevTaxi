@@ -4,10 +4,12 @@ import { HeaderLinks } from "../Header/HeaderLinks";
 import { Button } from "..";
 import style from "./SliderMenu.module.scss";
 import cn from "classnames";
+
 interface SliderMenuProps {
   status: boolean;
   hideSlider: () => void;
 }
+
 export const SliderMenu = ({ status, hideSlider }: SliderMenuProps) => {
   return (
     <div

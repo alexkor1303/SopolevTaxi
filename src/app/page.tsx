@@ -6,6 +6,7 @@ import {
   ContactSection,
   LicenseSection,
 } from "../components/index";
+
 export default function Home() {
   return (
     <main className={style.mainWrapper}>

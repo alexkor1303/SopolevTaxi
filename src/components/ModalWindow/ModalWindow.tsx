@@ -4,11 +4,13 @@ import { RxCross2 } from "react-icons/rx";
 
 import cn from "classnames";
 import { Button } from "..";
+
 interface ModalWindowProps {
   status: boolean;
   onClose: () => void;
   children: ReactNode;
 }
+
 export const ModalWindow = ({
   status,
   children,
