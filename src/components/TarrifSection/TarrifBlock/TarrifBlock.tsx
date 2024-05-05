@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./TarrifBlock.module.scss";
 import cn from "classnames";
+
 interface TarrifBlockProps {
   list: {
     id: number;

@@ -3,7 +3,7 @@ import style from "./ModaWindow.module.scss";
 import { RxCross2 } from "react-icons/rx";
 
 import cn from "classnames";
-import { Button } from "..";
+import { Button } from "@/components";
 
 interface ModalWindowProps {
   status: boolean;

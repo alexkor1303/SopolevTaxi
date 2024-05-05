@@ -1,7 +1,7 @@
 import { RxCross2 } from "react-icons/rx";
 import { CiMenuKebab } from "react-icons/ci";
-import { HeaderLinks } from "../Header/HeaderLinks";
-import { Button } from "..";
+import { HeaderLinks } from "@/components/Header/HeaderLinks";
+import { Button } from "@/components";
 import style from "./SliderMenu.module.scss";
 import cn from "classnames";
 

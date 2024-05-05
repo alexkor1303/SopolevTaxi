@@ -2,7 +2,7 @@
 import React from "react";
 import style from "./Header.module.scss";
 import cn from "classnames";
-import { Button, SliderMenu } from "..";
+import { Button, SliderMenu } from "@/components";
 import { HeaderLinks } from "./HeaderLinks";
 import { HeaderLinkElem } from "./HeaderLinkElem/HeaderLinkElem";
 import { BsLightningChargeFill } from "react-icons/bs";

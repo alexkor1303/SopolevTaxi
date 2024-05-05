@@ -1,8 +1,9 @@
 import style from "./TarrifSection.module.scss";
 import cn from "classnames";
-import { AttentionTag } from "..";
+import { AttentionTag } from "@/components";
 import { TarrifList } from "./TarrifsList";
 import { TarrifBlock } from "./TarrifBlock/TarrifBlock";
+
 export const TarrifSection = () => {
   return (
     <div id="Tarrifs">
