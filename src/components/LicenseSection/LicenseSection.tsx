@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import Image from "next/image";
 import { FaEye } from "react-icons/fa";
@@ -12,7 +12,7 @@ export const LicenseSection = () => {
       <ModalWindow onClose={() => setOpen(!open)} status={open}>
         <Image
           className={style.image}
-          src={"/license.png"}
+          src={"/licenseNew.jpeg"}
           width={340}
           height={560}
           alt="license"

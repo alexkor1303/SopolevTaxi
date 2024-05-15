@@ -14,7 +14,7 @@ export const Header = () => {
     <div className={style.wrapper}>
       <section className={style.logoBlock}>
         <h1>
-          SOPOL
+          SOPOLEV
           <BsLightningChargeFill fill={`var(--prime-green)`} />
           TAXI
         </h1>

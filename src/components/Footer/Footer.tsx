@@ -3,6 +3,8 @@ import { BsLightningChargeFill } from "react-icons/bs";
 import { FaPhoneAlt } from "react-icons/fa";
 
 export const Footer = () => {
+  const now = new Date().getFullYear();
+
   return (
     <div className={style.wrapper}>
       <section className={style.phones}>
@@ -19,9 +21,9 @@ export const Footer = () => {
       </section>
       <section>
         <p>
-          SOPOL
+          SOPOLEV
           <BsLightningChargeFill fill={`var(--prime-green)`} />
-          TAXI copyright © 2024
+          TAXI copyright © {now}
         </p>
       </section>
     </div>
